@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>saba</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <style>
     .g{
@@ -48,14 +49,17 @@
         flex-direction: column;
         align-items: end;
      }
-     .s6{
+           .s6{
         margin-top: 19px;
      }
      #A1{
         width: 650px;
      }
      .x1{
-        margin-top: 178px;
+      display: flex;
+      flex-direction: column;
+      gap:16px;
+       
      }
      .x2{
         margin-top: 32px;
@@ -71,7 +75,32 @@
         height: 48px;
         border: 0px;
      }
-     body{max-width: 1440px;}
+     .x4{
+      height: 368px;
+      padding: 0px 165px;
+      max-width: 1440px;
+      margin-top: 138px;
+     border-top: 1px solid black;
+     justify-content: space-between;
+     }
+     #x5{
+      margin-top: 40px;
+     }
+     #d1{
+      display: flex;
+      justify-content: space-between;
+     }
+     #f1{
+      max-width: 1440px;
+      border-top: 1px solid black;
+      display: flex;
+      justify-content: space-between;
+padding-top: 25px;
+padding: 26px 165px;
+
+     }
+     body{max-width: 1440px;
+      font-family: 'Roboto', sans-serif;}
 </style>
 <body>
     <nav class="g">
@@ -82,7 +111,7 @@
             <a id="item" >Our Works</a>
             <a id="item">Services</a>
             <a id="item" >Say Hello</a>
-        </div>
+              </div>
     </nav>
     <div class="s">
 
@@ -101,8 +130,8 @@
             <div id="A1">
             <h3>Friends Entertainment</h3>
             <h5>A partner for clients in any industry that fulfils their<br/> particular needs</h5></h5>
+           </div>
         </div>
-            </div>
 
             <img class="s1" src="assests/Group 12605 (1).svg"/> 
             <h3 class="s2">Friends Entertainment</h3>
@@ -111,8 +140,8 @@
              <img class="s4" src="assests/Group 19.svg"/>
              <h3 class="s2">Friends Entertainment</h3>
             <h5 class="s2">A partner for clients in any industry that fulfils their<br/> particular needs</h5>
-         </div>
-         <div class="s5">
+                                </div>
+                     <div class="s5">
             <img class="s4" src="assests\Group 12606.jpg">
             <div id="A1">
             <h3>Friends Entertainment</h3>
@@ -120,21 +149,32 @@
         </div>
         
     </div>
-    <footer>
-        <div>
-            <img class="x1"src="assests/homeworklogo 1 (1).svg"/>
+                         </div>
+
+
+
+    <footer class="x4" >
+      <div id="d1">
+        <div id="x5">
+            <img src="assests/homeworklogo 1 (1).svg"/>
             <h3 class="x2">Have a project in mind?</h3>
             <h1 class="x3">Hit us up!</h1>
             <button class="b1"> Start a new project  </button>
         </div>
-        <div>
+        <div class="x1" id="x5" >
             <a>Home</a>
             <a >Who We Are</a>
             <a >Our Workst</a>
             <a >Services</a>
             <a >Say Hello</a>
         </div>
+      </div>
+     
     </footer>
+    <div id="f1">
+      <img src="assests/surface1 (1).svg"/>
+   <img src="assests/© 2019 Fabrx.svg"/>
+   </div>
     
 </body>
 </html>
